@@ -1,0 +1,10 @@
+name = "workers-websocket-durable-objects"
+compatibility_date = "2022-05-10"
+
+main = "./dist/server.js"
+
+[site]
+bucket = "./dist/public"
+
+[build]
+# command = "pnpm build"
